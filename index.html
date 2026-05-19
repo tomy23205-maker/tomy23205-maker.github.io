@@ -30,11 +30,19 @@
             align-items: center;
             margin-top: 50px;
         }
-        #login-contenedor img {
+        .logo-texto {
             width: 80px;
             height: 80px;
             margin-bottom: 20px;
+            background-color: #00b894;
             border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 184, 148, 0.4);
         }
         .form-grupo {
             width: 100%;
@@ -109,7 +117,7 @@
 
     <!-- Formulario de Login -->
     <div id="login-contenedor">
-        <img src="mav-img.png" alt="Logo">
+        <div class="logo-texto">MAV</div>
         <h2>Iniciar Sesión</h2>
         <div class="form-grupo">
             <label for="usuario">Usuario:</label>
